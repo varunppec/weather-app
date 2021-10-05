@@ -1,7 +1,7 @@
 const getData = async function (name, e) {
   try {
     const response = await fetch(
-      "http://api.openweathermap.org/data/2.5/weather?q=" +
+      "https://api.openweathermap.org/data/2.5/weather?q=" +
         name +
         "&APPID=c6d173aa27f915a5ce2336f7f0768442",
       { mode: "cors" }

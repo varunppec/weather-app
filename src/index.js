@@ -84,7 +84,7 @@ const fillData = function (data) {
   wind.innerText = "Wind: " + data.wind;
 
   const img = document.createElement("img");
-  img.src = "http://openweathermap.org/img/wn/" + data.id + "@2x.png";
+  img.src = "https://openweathermap.org/img/wn/" + data.id + "@2x.png";
   img.id = "image";
   description.append(img);
 
